@@ -1,0 +1,23 @@
+@import './../../styles/text-size';
+@import './../../styles/colors';
+
+.input {
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 41px;
+    border-radius: 5px;
+    font-size: $text-sm;
+    padding: 1px 10px;
+
+    &:focus {
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.45);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.45);
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.45);
+    }
+
+    &::placeholder {
+        color: $color-input-text-placeholder;
+        font-weight: 600;
+    }
+}

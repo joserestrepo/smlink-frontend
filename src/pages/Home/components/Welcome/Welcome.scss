@@ -1,0 +1,29 @@
+@import './../../../../styles/colors';
+@import './../../../../styles/text-size';
+
+.container-welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $color-variant2;
+    padding: 50px;
+    &__title{
+        font-size: $text-4xl;
+    }
+    &__description{
+        margin: 0;
+        font-size: $text-sm;
+        max-width: 620px;
+        text-align: center;
+    }
+}   
+
+.container-short{
+    width: 100%;
+    margin-top: 40px;
+    max-width: 620px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
